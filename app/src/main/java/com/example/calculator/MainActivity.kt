@@ -2,13 +2,18 @@ package com.example.calculator
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
+
+    private var tvInput: TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        tvInput = findViewById(R.id.tvInput)
 
         val btnNumZero = findViewById<Button>(R.id.btnZero)
         val btnNumOne = findViewById<Button>(R.id.btnOne)
