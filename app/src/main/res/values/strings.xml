@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">calculator</string>
-    <string name="calc_output">0</string>
     <string name="zero">0</string>
     <string name="one">1</string>
     <string name="two">2</string>
