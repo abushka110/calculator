@@ -16,4 +16,6 @@
     <string name="addition">+</string>
     <string name="equation">=</string>
     <string name="clear">AC</string>
+    <string name="decimal">.</string>
+    <string name="percent">%</string>
 </resources>
