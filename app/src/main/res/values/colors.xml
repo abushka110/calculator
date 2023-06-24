@@ -3,7 +3,7 @@
     <!--  color for background  -->
     <color name="colorBg">#000000</color>
     <!--  colors for buttons  -->
-    <color name="colorBtn">#9999a1</color>
+    <color name="colorBtn">#fca311</color>
     <!--  colors for text  -->
     <color name="colorTextMain">#ffffff</color>
 </resources>
