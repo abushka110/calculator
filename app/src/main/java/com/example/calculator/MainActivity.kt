@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
     private var tvInput: TextView? = null
     private var division: Button? = null
     private var multiplication: Button? = null
-    var lastNumeric: Boolean = false
-    var lastDot: Boolean = false
+    private var lastNumeric: Boolean = false
+    private var lastDot: Boolean = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
